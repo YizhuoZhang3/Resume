@@ -6,6 +6,7 @@
   <meta name="description" content="Yizhuo's personal website, it shows her study and work experience, as well as her personal life">
   <meta name="keywords" content="HTML, CSS, JavaScript">
   <title>Yizhuo's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -18,34 +19,33 @@
         reviewing shop drawing everyday. Hence, I decided to change my career path during pandemic. I love sports, especially tennis. I enjoy doing outdoor activities such as hiking, camping and jogging. I'm very energetic and full of passion.</p>
     </td>
   </table>
-  <hr size="1" color=black>
+  <hr>
 
   <h3>Education</h3>
   <ul>
     <li><a href="https://www.gracehopper.com/">Grace Hopper Bootcamp</a></li>
     <ul>
-      <li>Software Engineer in Training</li>
       <li>Developed front-end skills such as HTML5, CSS3 and went with React.</li>
       <li>Used JavaScript to the back-end, with Node.js and mastered the use of APIs to connect to vast amounts of user data.</li>
       <li>Mastered data persistence by building own SQL database engine, learned popular SQL databases like Postgres, and integrated these into applications.</li>
-    </ul>
+    </ul><br>
     <li><a href="http://www.brooklyn.cuny.edu/web/academics/schools/naturalsciences/departments/computers.php">CUNY - Brooklyn College</a></li>
     <ul>
       <li>Master of Science, Computer Science</li>
       <li><i>GPA 3.75/4.0</i></li>
-    </ul>
+    </ul><br>
     <li><a href="https://www.civil.columbia.edu/">Columbia University</a></li>
     <ul>
       <li>Master of Science, Civil Engineering</li>
       <li><i>GPA 3.45/4.0</i></li>
-    </ul>
+    </ul><br>
     <li><a href="https://wsu.edu/">Washington State University</a></li>
     <ul>
       <li>Bachelor of Science, Civil Engineering</li>
       <li><i>GPA 3.50/4.0</i></li>
-    </ul>
+    </ul><br>
   </ul>
-  <hr size="1" color=black>
+  <hr>
 
   <h3>Work Experience</h3>
   <ul>
@@ -77,10 +77,24 @@
       <li>Reviewed architecture drawings with senior employees and provided ideas to solve structural problems</li>
       <li>Checked material quality and supervised Material Department on purchases</li>
       <li>Participated in the examination of building process, inspected structural components on the construction site</li>
+    </ul><br>
+  </ul>
+  <hr>
+  <h3>Projects</h3>
+  <ul>
+    <li>Real Estate Webcraper</li>
+    <ul>
+      <li>Scraped a real estate website data in Python</li>
+      <li>Extracted HTML blocks of property listings and the address and other attributes out of each property listed on the webpage, found out HTML elements that don't have unique tag identifiers</li>
+      <li>Saved the final extracted data from Python to a CSV file.</li>
+      <li>Implemented pagination and extracted data from all webpages of the website</li>
+    </ul><br>
+    <li>Bank Transaction System</li>
+    <ul>
+      <li>Created a small bank transaction system with several functions such as withdrawal, deposit, check balance, new account opening, deleting and updating, etc.</li>
+      <li>Applied core Java concepts like strings, classes, array, taking inputs from the user, loops, decision-making statements.</li>
     </ul>
   </ul>
-  <hr size="1" color=black>
-  <h3>Projects</h3>
   <h3>Skills</h3>
   <table cellspacing="10">
     <tr>
@@ -170,20 +184,26 @@
       </td>
     </tr>
   </table>
-  <h3><a href="hobbies.html">My Hobbies</a></h3>
-<hr>
+  <h3>My Hobbies</h3>
+  <ol>
+    <li>Tennis</li>
+    <li>Baking and cooking</li>
+    <li><a href="https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc">Movies</a></li>
+    <li>Outdoor activities</li>
+  </ol>
+  <hr>
   <!-- COMBAK: contact information -->
   <h3>Contact</h3>
   <p>Email: zhangyizhuozoe@gmail.com</p>
   <p>Phone: +1 9175269907</p>
   <form action="mailto:zhangyizhuozoe@gmail.com" method="post" enctype="text/plain">
-  <label>Your Name:</label>
-  <input type="text" name="" value=""><br>
-  <label>Your Email:</label>
-  <input type="email" name="yourEmail" value=""><br>
-  <label>Your Message:</label><br>
-  <textarea name="yourMessage" rows="10" cols="50"></textarea><br>
-  <input type="submit" name="">
+    <label>Your Name:</label>
+    <input type="text" name="" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="50"></textarea><br>
+    <input type="submit" name="">
   </form>
 
 </body>
